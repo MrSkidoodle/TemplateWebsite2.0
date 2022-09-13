@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.Logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 100px;
+}
+.link {
+    padding-right: 180px;
+}
+.link a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-right: 45px;
+}
+.FirstContainer {
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+.FirstText {
+    max-width: 350px;
+}
+.FirstText h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+.FirstText p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.Signupbutton {
+    background-color: #3882f6;
+    max-width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 11px;
+    margin-top: 20px;
+}
+.Signupbutton a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 20px;
+}
+.FirstImage {
+    background-color: gray;
+    width: 550px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FirstImage h1 {
+    color:rgb(68, 68, 68);
+    font-size: 50px;
+}
+.SecondContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.SecondContainer h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+.boxes {
+    display: flex;
+}
+.box {
+    max-width: fit-content;
+    padding-left: 50px;
+}
+.box p {
+    font-size: 25px;
+    text-align: center;
+    color: gray;
+}
+.boximage {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 11px;
+}
+.ThirdContainer {
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+}
+.quotecontainer {
+    max-width: 1000px;
+}
+.quotecontainer h1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+.quotecontainer p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: end;
+}
+.FourthContainer {
+    margin: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.calltoactionbar {
+    background-color: #3882f6;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+.text h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+.text p {
+    font-size: 18px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+.Signupbuttonbottom {
+    border: 3px solid white;
+    max-width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 11px;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+.Signupbuttonbottom a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+.footer {
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}

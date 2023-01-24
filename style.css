@@ -85,10 +85,10 @@
     display: flex;
 }
 .box {
-    max-width: fit-content;
-    padding-left: 50px;
+    padding-right: 50px;
 }
 .box p {
+    max-width: 220px;
     font-size: 25px;
     text-align: center;
     color: gray;
@@ -157,7 +157,8 @@
 .Signupbuttonbottom a {
     text-decoration: none;
     color: #F9FAF8;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 900;
 }
 .footer {
     background-color: #E5E7EB;

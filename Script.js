@@ -1,7 +1,7 @@
 "use strict";
 usernameInput();
 
-
+// Assigns constant username and checks if username is invalid
 function usernameInput() {
     let username = prompt("Enter username:")
     if (!username) {

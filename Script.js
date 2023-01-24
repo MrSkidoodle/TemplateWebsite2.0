@@ -9,11 +9,13 @@ function usernameInput() {
         usernameInput();
     }
     else {
-        const USERNAME = username;
-        alert(`Welcome ${USERNAME}`)
+        if (confirm("Are you sure you want this as your username? \n ***IT CANNOT BE CHANGED***")) {
+            alert(`Welcome ${username}`);
+        }
+        else {
+            alert("Please select another username");
+            usernameInput();
+        }
     }
-}
-function main() {
-
 }
     

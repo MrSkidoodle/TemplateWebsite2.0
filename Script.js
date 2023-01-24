@@ -5,7 +5,7 @@ usernameInput();
 function usernameInput() {
     let username = prompt("Enter username:")
     if (!username) {
-        alert("Username cannot be null!")
+        alert("User name cannot be empty!")
         usernameInput();
     }
     else {
